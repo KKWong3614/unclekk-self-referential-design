@@ -1,0 +1,15 @@
+{
+  "_comment": "评分信号：效用分 + 违规计数。每轮任务结束写入一次。",
+  "schema": {
+    "utility": "0~1 任务达成度，用户一次返工就该往下压",
+    "violations": "违规 / 返工次数"
+  },
+  "latest": {
+    "utility": 0.62,
+    "violations": 0
+  },
+  "baseline": {
+    "utility": 0.6,
+    "violations": 1
+  }
+}
